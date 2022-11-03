@@ -2,7 +2,36 @@
 @import "verables";
 
 #header {
+  background: rgba(0, 0, 0, 0.93);
+  padding: 20px;
+
   .header {
+    @include menu;
+
+    input {
+      background: rgba(38, 39, 43, 0.33);
+      backdrop-filter: blur(27.5px);
+      width: 350px;
+      height: 51px;
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      border-radius: 41px;
+      color: white;
+    }
+
+    &--menu a{
+      color: rgba(255, 255, 255, 0.7);
+      padding: 20px;
+    }
+
+    span {
+      color: #EEB563;
+    }
+
+    &__icon {
+      color: white;
+
+    }
+
   }
 }
 
@@ -16,8 +45,8 @@
   }
 }
 
-#discover{
-  .discover{
+#discover {
+  .discover {
   }
 }
 
@@ -36,8 +65,8 @@
   }
 }
 
-#footer{
-  .footer{
+#footer {
+  .footer {
   }
 }
 
