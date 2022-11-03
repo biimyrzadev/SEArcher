@@ -4,4 +4,8 @@
   justify-content: space-between;
 }
 
-
+@mixin nft{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

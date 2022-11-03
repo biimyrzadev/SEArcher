@@ -18,7 +18,7 @@
       color: white;
     }
 
-    &--menu a{
+    &--menu a {
       color: rgba(255, 255, 255, 0.7);
       padding: 20px;
     }
@@ -36,7 +36,149 @@
 }
 
 #hero {
+  background: black;
+  padding: 30px;
+
   .hero {
+    &--marketplace {
+      @include nft;
+      color: #EEB563;
+      font-size: 20px;
+      padding: 20px 0;
+    }
+
+    &--blueStar {
+      position: absolute;
+      margin-left: 900px;
+      margin-top: -50px;
+    }
+
+    &--dot {
+      color: white;
+      margin-left: 1130px;
+    }
+
+    &--Star3 {
+      position: absolute;
+      margin-left: 200px;
+    }
+
+    &--Star4 {
+      position: absolute;
+      margin-left: 1000px;
+      margin-top: 100px;
+    }
+
+    &--circle {
+      width: 21px;
+      height: 21px;
+      color: white;
+      border-radius: 50%;
+    }
+
+    &--collect {
+      color: white;
+      font-size: 96px;
+      width: 75%;
+      text-align: center;
+      padding: 0 0 100px 0;
+    }
+
+    &--restangle {
+      position: absolute;
+      width: 211px;
+      height: 78px;
+      margin-left: 1050px;
+      margin-top: -120px;
+      border: 1px solid #FFFFFF;
+      border-radius: 39px;
+      transform: rotate(-90deg);
+    }
+
+    &--Star2 {
+      position: absolute;
+      margin-left: 260px;
+      margin-top: -80px;
+    }
+
+    &--meaming {
+      text-align: left;
+      color: #FFFFFF;
+
+    }
+
+    &--orangeCircle {
+      margin-left: 190px;
+      margin-top: -60px;
+    }
+
+    &--Star7 {
+      position: absolute;
+      margin-left: -57px;
+      margin-top: -40px;
+    }
+
+    &--mirror {
+      margin-left: 600px;
+    }
+
+    &--goldMon {
+      position: absolute;
+      margin-left: -500px;
+      margin-top: -50px;
+    }
+
+    &--HAPEBEAST {
+      position: absolute;
+      font-size: 16px;
+      color: #FFFFFF;
+      margin-left: 1063px;
+      margin-top: -300px;
+    }
+
+    &--restangle7 {
+      width: 380px;
+      height: 103px;
+      border: 1px solid #FFFFFF;
+      border-radius: 39px;
+      transform: rotate(-90deg);
+      margin-left: -100px;
+      margin-top: -200px;
+    }
+
+    &--restangle8 {
+      width: 89.44px;
+      height: 32.66px;
+      border: 1px solid #FFFFFF;
+      border-radius: 39px;
+      transform: rotate(179.36deg);
+      margin-left: 200px;
+    }
+
+    &--Star8 {
+      margin-top: 120px;
+      margin-left: 333px;
+    }
+
+    &--wallet {
+      color: #FFFFFF;
+      padding: 140px 0 20px 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1205px;
+      font-size: 27px;
+    }
+
+    &--paypal {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 27px;
+      width: 1221px;
+      padding: 30px 0;
+    }
   }
 }
 
