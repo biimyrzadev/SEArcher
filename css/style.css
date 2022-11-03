@@ -16,4 +16,33 @@ a {
   font-family: "Inter", sans-serif;
 }
 
+#header {
+  background: rgba(0, 0, 0, 0.93);
+  padding: 20px;
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header input {
+  background: rgba(38, 39, 43, 0.33);
+  backdrop-filter: blur(27.5px);
+  width: 350px;
+  height: 51px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 41px;
+  color: white;
+}
+#header .header--menu a {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+#header .header span {
+  color: #EEB563;
+}
+#header .header__icon {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
