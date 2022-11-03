@@ -45,4 +45,130 @@ a {
   color: white;
 }
 
+#hero {
+  background: black;
+  padding: 30px;
+}
+#hero .hero--marketplace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EEB563;
+  font-size: 20px;
+  padding: 20px 0;
+}
+#hero .hero--blueStar {
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -50px;
+}
+#hero .hero--dot {
+  color: white;
+  margin-left: 1130px;
+}
+#hero .hero--Star3 {
+  position: absolute;
+  margin-left: 200px;
+}
+#hero .hero--Star4 {
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 100px;
+}
+#hero .hero--circle {
+  width: 21px;
+  height: 21px;
+  color: white;
+  border-radius: 50%;
+}
+#hero .hero--collect {
+  color: white;
+  font-size: 96px;
+  width: 75%;
+  text-align: center;
+  padding: 0 0 100px 0;
+}
+#hero .hero--restangle {
+  position: absolute;
+  width: 211px;
+  height: 78px;
+  margin-left: 1050px;
+  margin-top: -120px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(-90deg);
+}
+#hero .hero--Star2 {
+  position: absolute;
+  margin-left: 260px;
+  margin-top: -80px;
+}
+#hero .hero--meaming {
+  text-align: left;
+  color: #FFFFFF;
+}
+#hero .hero--orangeCircle {
+  margin-left: 190px;
+  margin-top: -60px;
+}
+#hero .hero--Star7 {
+  position: absolute;
+  margin-left: -57px;
+  margin-top: -40px;
+}
+#hero .hero--mirror {
+  margin-left: 600px;
+}
+#hero .hero--goldMon {
+  position: absolute;
+  margin-left: -500px;
+  margin-top: -50px;
+}
+#hero .hero--HAPEBEAST {
+  position: absolute;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-left: 1063px;
+  margin-top: -300px;
+}
+#hero .hero--restangle7 {
+  width: 380px;
+  height: 103px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(-90deg);
+  margin-left: -100px;
+  margin-top: -200px;
+}
+#hero .hero--restangle8 {
+  width: 89.44px;
+  height: 32.66px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(179.36deg);
+  margin-left: 200px;
+}
+#hero .hero--Star8 {
+  margin-top: 120px;
+  margin-left: 333px;
+}
+#hero .hero--wallet {
+  color: #FFFFFF;
+  padding: 140px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1205px;
+  font-size: 27px;
+}
+#hero .hero--paypal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 27px;
+  width: 1221px;
+  padding: 30px 0;
+}
+
 /*# sourceMappingURL=style.css.map */
