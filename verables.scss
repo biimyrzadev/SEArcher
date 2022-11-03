@@ -9,3 +9,12 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin btnSwiper{
+  background: #FE8B46;
+  border: 1px solid #FFFFFF;
+  border-radius: 40px;
+  width: 72.39px;
+  height: 39.59px;
+  margin-left: 110px;
+}
