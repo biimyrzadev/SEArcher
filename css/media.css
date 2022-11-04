@@ -2,22 +2,162 @@
 }
 
 @media (max-width: 1200px) {
+    #hero .hero--HAPEBEAST {
+        margin-left: 910px;
+    }
+
+    #hero .hero--wallet {
+        width: 1090px;
+    }
+
+    #hero .hero--mirror {
+        margin-left: 540px;
+    }
 }
 
 @media (max-width: 1024px) {
+    #hero .hero--Star4 {
+        margin-left: 750px;
+    }
+
+    #hero .hero--mirror {
+        margin-left: 441px;
+    }
+
+    #hero .hero--restangle8 {
+        margin-left: 167px;
+    }
+
+    #hero .hero--HAPEBEAST {
+        margin-left: 825px
+    }
+
+    #hero .hero--wallet {
+        width: 925px;
+    }
 }
 
 @media (max-width: 992px) {
+    #hero .hero--wallet {
+        width: 925px;
+    }
+
+    #hero .hero--restangle7 {
+        margin-left: -136px;
+    }
+
+    #hero .hero--restangle8 {
+        margin-left: 125px;
+    }
+
+    #hero .hero--mirror {
+        margin-left: 368px;
+    }
+
+    #hero .hero--HAPEBEAST {
+        margin-left: 720px;
+    }
+
+    #hero .hero--wallet {
+        width: 880px;
+    }
+
+    #hot .hot .swiper-slide img {
+        width: 248px;
+    }
+
+    #hero .hero--blueStar {
+        margin-left: 680px;
+    }
 }
 
 @media (max-width: 768px) {
+    #header .header--menu {
+        display: none;
+    }
+
+    #hero .hero--blueStar {
+        margin-left: 545px;
+    }
+
+    #hero .hero--Star4 {
+        margin-left: 414px;
+    }
+
+    #hero .hero--restangle7 {
+        margin-left: -166px;
+    }
+
+    #hero .hero--restangle8 {
+        display: none;
+    }
+
+    #hero .hero--mirror {
+        margin-left: 260px;
+    }
+
+    #hero .hero--orangeCircle {
+        margin-left: 160px;
+    }
+
+    hero .hero--Star8 {
+        margin-top: 142px;
+    }
+
+    #hero .hero--HAPEBEAST {
+        margin-left: 589px;
+    }
+
+    #hero .hero--wallet {
+        width: 668px;
+    }
 }
 
 @media (max-width: 576px) {
+    #header .header input {
+        width: 250px;
+    }
+
+    #hero .hero--blueStar {
+        margin-left: 460px;
+    }
+
+    #hero .hero--collect {
+        width: 100%;
+    }
+
+    #hero .hero--restangle7 {
+        display: none;
+    }
+
+    #hero .hero--mirror {
+        margin-left: 118px;
+        margin-top: 30px;
+    }
+
+    #hero .hero--goldMon {
+        margin-top: -40px;
+    }
+
+    #hero .hero--HAPEBEAST {
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    #hero .hero--paypal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #hero .hero--wallet{
+        width: 480px;
+    }
 }
 
 @media (max-width: 450px) {
-}
+    #header .header input{
+        width: 150px;
+    }
+    }
 
 @media (max-width: 425px) {
 }
@@ -26,6 +166,24 @@
 }
 
 @media (max-width: 380px) {
+    #header .header input{
+        display: none;
+    }
+    #hero .hero--blueStar {
+        margin-left: 237px;
+    }
+    #hero .hero--Star4 {
+        margin-left: 239px;
+    }
+    #hero .hero--mirror{
+        margin-left: -25px;
+    }
+    #hero .hero--Star8 {
+        margin-left: 263px;
+    }
+    #hero .hero--wallet {
+        width: 1px;
+    }
 }
 
 @media (max-width: 375px) {
