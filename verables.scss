@@ -18,3 +18,12 @@
   height: 39.59px;
   margin-left: 110px;
 }
+
+
+
+@mixin swiperImg{
+  display: block;
+  width: 440px;
+  height: 627.76px;
+  object-fit: cover;
+}
