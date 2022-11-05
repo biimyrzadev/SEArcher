@@ -34,12 +34,25 @@ a {
   border-radius: 41px;
   color: white;
 }
+#header .header--glass {
+  position: absolute;
+  margin-left: 590px;
+  color: #FFFFFF;
+}
 #header .header--menu a {
   color: rgba(255, 255, 255, 0.7);
   padding: 20px;
+  transition: 1s;
+}
+#header .header--menu a:hover {
+  color: #EEB563;
 }
 #header .header span {
   color: #EEB563;
+  transition: qs;
+}
+#header .header span:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
 #header .header__icon {
   color: white;
