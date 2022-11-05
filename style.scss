@@ -221,11 +221,9 @@
       align-items: center;
     }
 
+
     .swiper-slide img {
-      display: block;
-      width: 440px;
-      height: 627.76px;
-      object-fit: cover;
+      @include swiperImg;
     }
 
     &--inside{
