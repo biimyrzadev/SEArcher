@@ -17,20 +17,34 @@
       border-radius: 41px;
       color: white;
     }
+    &--glass{
+      position: absolute;
+      margin-left: 590px;
+      color: #FFFFFF;
+    }
 
     &--menu a {
       color: rgba(255, 255, 255, 0.7);
       padding: 20px;
+      transition: 1s;
+    }
+    &--menu a:hover{
+      color: #EEB563;
     }
 
     span {
       color: #EEB563;
+      transition: qs;
+    }
+    span:hover{
+      color: rgba(255, 255, 255, 0.7);
     }
 
     &__icon {
       color: white;
 
     }
+
 
   }
 }
