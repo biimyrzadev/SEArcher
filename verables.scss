@@ -27,3 +27,11 @@
   height: 627.76px;
   object-fit: cover;
 }
+
+@mixin line2{
+  width: 32px;
+  height: 31px;
+  border: 1px solid #868686;
+  border-radius: 50%;
+  margin-top: 80px;
+}
