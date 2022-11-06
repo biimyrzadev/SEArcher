@@ -287,10 +287,42 @@ a {
   margin-top: 80px;
 }
 #create .create--img1 {
-  margin: 42px 134px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0;
+}
+#create .create--img1--i {
+  width: 900px;
 }
 #create .create--img2 {
   margin-left: 200px;
+}
+
+#recourse {
+  background: #000;
+}
+#recourse .recourse--tit {
+  text-align: center;
+}
+#recourse .recourse--tit--ti1 {
+  color: #F1B864;
+}
+#recourse .recourse--tit--ti2 {
+  color: #FFFFFF;
+  font-size: 35px;
+}
+#recourse .recourse--image {
+  margin-left: 900px;
+}
+#recourse .recourse--tit2 {
+  color: #FE8B46;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#recourse .recourse--line {
+  border: 1px solid #727272;
 }
 
 /*# sourceMappingURL=style.css.map */
