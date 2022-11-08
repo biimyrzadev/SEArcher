@@ -16,8 +16,21 @@ a {
   font-family: "Inter", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background: black;
+}
+
 #header {
-  background: rgba(0, 0, 0, 0.93);
   padding: 20px;
 }
 #header .header {
@@ -59,7 +72,6 @@ a {
 }
 
 #hero {
-  background: black;
   padding: 30px;
 }
 #hero .hero--marketplace {
@@ -185,7 +197,6 @@ a {
 }
 
 #hot {
-  background: black;
   padding: 30px 0;
 }
 #hot .hot--stuff {
@@ -253,6 +264,148 @@ a {
   border-radius: 39px;
   transform: rotate(-90deg);
 }
+
+#discover {
+  padding: 70px 0;
+}
+#discover .discover--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#discover .discover--hot {
+  color: #FE8B46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#discover .discover--gis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eeeeee;
+  font-size: 32px;
+}
+#discover .discover--btn {
+  box-sizing: border-box;
+  background: black;
+  color: #eeeeee;
+  width: 231px;
+  height: 58px;
+  left: 71px;
+  top: 3100px;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+}
+#discover .discover--nft {
+  margin-top: 100px;
+  box-sizing: border-box;
+  width: 311px;
+  height: 468px;
+  margin-top: 30px;
+  border: 1px solid #A6A6A6;
+  border-radius: 26px;
+}
+#discover .discover--img {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#discover .discover--h1 {
+  color: white;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#discover .discover--hr {
+  margin-top: 80px;
+}
+#discover .discover--svg {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#discover .discover--svg1 {
+  margin-left: 240px;
+}
+#discover .discover--svg2 {
+  position: absolute;
+  left: 295px;
+  margin-top: -20px;
+}
+#discover .discover--pot {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1000px;
+}
+#discover .discover--btn1 {
+  box-sizing: border-box;
+  background: black;
+  color: #eeeeee;
+  width: 231px;
+  height: 58px;
+  left: 71px;
+  top: 3100px;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+  margin-top: 1000px;
+  margin-left: -700px;
+}
+
+#nft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nft .nft--let {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 600px;
+  color: wheat;
+  margin-top: 900px;
+}
+#nft .nft--tel {
+  box-sizing: border-box;
+  width: 411px;
+  height: 91px;
+  border: 1px solid #BCBCBC;
+  border-radius: 13px;
+  margin-top: 80px;
+}
+#nft .nft--img {
+  margin-top: 17px;
+  margin-left: 10px;
+}
+#nft .nft--h1 {
+  color: #eeeeee;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+#nft .nft--svg {
+  margin-left: 330px;
+  margin-top: -20px;
+  position: absolute;
+}
+#nft .nft--mot {
+  margin-left: 500px;
+  margin-top: -510px;
+}
+#nft .nft--mit {
+  margin-left: 1000px;
+  margin-top: -510px;
+}
+#nft .nft--btn {
+  box-sizing: border-box;
+  background: black;
+  color: #eeeeee;
+  width: 231px;
+  height: 58px;
+  left: 71px;
+  top: 3100px;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+  margin-top: 150px;
+  margin-left: 600px;
 
 #create {
   background: #000000;

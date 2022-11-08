@@ -1,8 +1,20 @@
 @import "reset";
 @import "verables";
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  background: black;
+}
 #header {
-  background: rgba(0, 0, 0, 0.93);
+  //background: rgba(0, 0, 0, 0.93);
   padding: 20px;
 
   .header {
@@ -17,7 +29,8 @@
       border-radius: 41px;
       color: white;
     }
-    &--glass{
+
+    &--glass {
       position: absolute;
       margin-left: 590px;
       color: #FFFFFF;
@@ -28,7 +41,8 @@
       padding: 20px;
       transition: 1s;
     }
-    &--menu a:hover{
+
+    &--menu a:hover {
       color: #EEB563;
     }
 
@@ -36,7 +50,8 @@
       color: #EEB563;
       transition: qs;
     }
-    span:hover{
+
+    span:hover {
       color: rgba(255, 255, 255, 0.7);
     }
 
@@ -48,11 +63,9 @@
 
   }
 }
-
 #hero {
-  background: black;
+  //background: black;
   padding: 30px;
-
   .hero {
     &--marketplace {
       @include nft;
@@ -195,19 +208,21 @@
     }
   }
 }
-
 #hot {
-  background: black;
+  //background: black;
   padding: 30px 0;
+
   .hot {
-    &--stuff{
+    &--stuff {
       font-size: 20px;
       color: #F1B864;
     }
-    &--item{
+
+    &--item {
       font-size: 32px;
       color: #FFFFFF;
     }
+
     .swiper {
       width: 100%;
       height: 100%;
@@ -240,7 +255,7 @@
       @include swiperImg;
     }
 
-    &--inside{
+    &--inside {
       position: absolute;
       margin-top: 300px;
       color: #FFFFFF;
@@ -248,14 +263,17 @@
       flex-direction: column;
       font-size: 25px;
     }
-    &--live{
+
+    &--live {
       @include btnSwiper
     }
-    &--Star12{
+
+    &--Star12 {
       margin-top: 200px;
       margin-left: 300px;
     }
-    &--restangle12{
+
+    &--restangle12 {
       width: 92px;
       height: 34px;
 
@@ -265,17 +283,121 @@
     }
   }
 }
-
 #discover {
+  //background: #be1717;
+  padding: 70px 0;
+
   .discover {
+    &--top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--hot {
+      color: #FE8B46;
+      @include nft
+    }
+
+    &--gis {
+      @include nft;
+      color: #eeeeee;
+      font-size: 32px;
+    }
+    &--btn {
+      @include btn;
+    }
+
+    &--nft {
+      @include nty;
+    }
+   &--img{
+     margin-left: 10px;
+     margin-top: 10px;
+   }
+    &--h1{
+      color:white;
+      margin-top: 15px;
+      margin-left: 10px;
+    }
+    &--hr{
+      margin-top: 80px;
+    }
+    &--svg{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    &--svg1{
+      margin-left: 240px;
+    }
+    &--svg2{
+      position: absolute;
+      left: 295px;
+    margin-top: -20px;
+    }
+    &--pot{
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+margin-top: 1000px;
+    }
+&--btn1{
+@include btn;
+margin-top: 1000px;
+  margin-left: -700px;
+
+}
   }
 }
-
 #nft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   .nft {
-  }
+&--let{
+  @include menu;
+  margin-left: 600px;
+   color: wheat;
+  margin-top: 900px;
+}
+&--tel{
+  @include icon;
+  margin-top: 80px;
+}
+&--img{
+  margin-top: 17px;
+  margin-left: 10px;
+}
+&--h1{
+  color: #eeeeee;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+    &--svg{
+      margin-left:330px ;
+      margin-top: -20px;
+      position: absolute;
+    }
+&--mot{
+
+ margin-left: 500px;
+ margin-top: -510px;
+}
+&--mit{
+  margin-left: 1000px;
+  margin-top: -510px;
 }
 
+    &--btn{
+      @include btn;
+      margin-top: 150px;
+      margin-left: 600px;
+
+    }
+
+  }
+}
 #create {
   background: #000000;
   .create {
