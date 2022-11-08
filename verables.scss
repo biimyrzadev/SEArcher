@@ -27,3 +27,31 @@
   height: 627.76px;
   object-fit: cover;
 }
+@mixin btn{
+  box-sizing: border-box;
+background: black;
+  color: #eeeeee;
+
+  width: 231px;
+  height: 58px;
+  left: 71px;
+  top: 3100px;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+}
+@mixin nty{
+  margin-top: 100px;
+  box-sizing: border-box;
+  width: 311px;
+  height: 468px;
+  margin-top: 30px;
+  border: 1px solid #A6A6A6;
+  border-radius: 26px;
+}
+@mixin icon{
+  box-sizing: border-box;
+  width: 411px;
+  height: 91px;
+  border: 1px solid #BCBCBC;
+  border-radius: 13px;
+}
