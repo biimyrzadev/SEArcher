@@ -357,10 +357,38 @@
       @include menu;
     }
     &--line{
+      margin-top: 10px;
       border: 1px solid #727272;
     }
     &--bloke{
-
+      @include menu;
+      margin: 25px 0;
+      &--img{
+        display: flex;
+        &--im{
+          width: 27px;
+          height: 27px;
+          margin-top: 5px;
+        }
+        &--h1{
+          color: #FFFFFF;
+          padding: 10px;
+        }
+      }
+      &--tit{
+        color: #FFFFFF;
+        margin: 0 217px;
+      }
+      &--p{
+        color: #FFFFFF;
+      }
+      &--btn{
+        background: transparent;
+        color: #FFFFFF;
+      }
+      small{
+        color: #FFFFFF;
+      }
     }
   }
 }

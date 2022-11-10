@@ -322,7 +322,40 @@ a {
   justify-content: space-between;
 }
 #recourse .recourse--line {
+  margin-top: 10px;
   border: 1px solid #727272;
+}
+#recourse .recourse--bloke {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+#recourse .recourse--bloke--img {
+  display: flex;
+}
+#recourse .recourse--bloke--img--im {
+  width: 27px;
+  height: 27px;
+  margin-top: 5px;
+}
+#recourse .recourse--bloke--img--h1 {
+  color: #FFFFFF;
+  padding: 10px;
+}
+#recourse .recourse--bloke--tit {
+  color: #FFFFFF;
+  margin: 0 217px;
+}
+#recourse .recourse--bloke--p {
+  color: #FFFFFF;
+}
+#recourse .recourse--bloke--btn {
+  background: transparent;
+  color: #FFFFFF;
+}
+#recourse .recourse--bloke small {
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
