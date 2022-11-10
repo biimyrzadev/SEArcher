@@ -400,43 +400,109 @@ margin-top: 1000px;
 }
 #create {
   background: #000000;
+
   .create {
-    &--gena{
+    &--gena {
       display: flex;
       align-items: center;
       justify-content: space-around;
       text-align: center;
-      &--line{
+
+      &--line {
         width: 199px;
         height: 47px;
         border: 1px solid #A7A7A7;
         border-radius: 39px;
       }
-      &--gen{
+
+      &--gen {
         width: 256px;
-        &--tit{
+
+        &--tit {
           color: #F1B864;
         }
-        &--tit2{
+
+        &--tit2 {
           color: white;
           font-size: 35px;
         }
       }
-      &--line2{
+
+      &--line2 {
         @include line2;
       }
     }
-    &--img1{
-      margin: 42px 134px;
+
+    &--img1 {
+      @include nft;
+      margin: 60px 0;
+      &--i{
+        width: 900px ;
+      }
     }
-    &--img2{
+
+    &--img2 {
       margin-left: 200px;
     }
   }
 }
 
 #recourse {
+  background: #000;
   .recourse {
+    &--tit {
+      text-align: center;
+
+      &--ti1 {
+        color: #F1B864;
+      }
+
+      &--ti2 {
+        color: #FFFFFF;
+        font-size: 35px;
+      }
+    }
+    &--image {
+       margin-left: 900px;
+     }
+    &--tit2{
+      color: #FE8B46;
+      @include menu;
+    }
+    &--line{
+      margin-top: 10px;
+      border: 1px solid #727272;
+    }
+    &--bloke{
+      @include menu;
+      margin: 25px 0;
+      &--img{
+        display: flex;
+        &--im{
+          width: 27px;
+          height: 27px;
+          margin-top: 5px;
+        }
+        &--h1{
+          color: #FFFFFF;
+          padding: 10px;
+        }
+      }
+      &--tit{
+        color: #FFFFFF;
+        margin: 0 217px;
+      }
+      &--p{
+        color: #FFFFFF;
+      }
+      &--btn{
+        background: transparent;
+        color: #FFFFFF;
+      }
+      small{
+        color: #FFFFFF;
+      }
+    }
   }
 }
 
